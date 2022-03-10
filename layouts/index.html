@@ -1,0 +1,37 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Site.Params.Tagline}}</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button primary big" href="/demo/">Try it!</a> 
+    <a class="button outline big" href="{{.Site.Params.Github}}">View on Github</a>
+    <p>{{.Site.Params.Description}}</p>
+  </div>
+  <div class="message focus" data-component="message">
+    $ pip install mitzu
+  </div>
+  <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <h3>Keep control 🕹</h3>
+        <p>Your data should not leave your premises, no vendor lock-in.</p>
+      </div>
+      <div class="col col-4 item">
+        <h3>Autocomplete 🏎</h3>
+        <p>Much fast, so auto!</p>
+      </div>
+      <div class="col col-4 item">
+        <h3>DRY 🌵</h3>
+        <p>Less errors, more fun.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
