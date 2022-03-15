@@ -16,12 +16,8 @@ Paginate = 4
 [[menu.main]]
     name = "Demo"
     weight = 10
-    url = "/demo/"
+    url = "https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fmitzu-io%2Fmitzu-demo"
 [[menu.main]]
-    name = "Quick start"
-    weight = 0
-    url = "/quick-start/"
-[[menu.main]]
-    name = "Docs"
+    name = "Docs (coming soon)"
     weight = 0
     url = "/docs/"
