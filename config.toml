@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Mitzu"
 theme = "kube"
 description = "Your data. Your rules. Your friend, Mitzu. Mitzu is a library that let's you slice&dice and visualize your event data, while you remain in full control."
-googleAnalytics = G-GRP3E3CNWX
+googleAnalytics = "G-GRP3E3CNWX"
 Paginate = 4
 [Params]
   author = "" # add your company name
